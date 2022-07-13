@@ -12,4 +12,6 @@ To build the ODE library, run `buildODElib.sh` in your shell. This generates `od
 ## Sample exponential decay application
 To run the sample exponential decay application, run `decay.sh` in your shell. This creates an executable `decay.exe` and runs it, generating csv data in the `decay_data` directory. 
 
-A Jupyter notebook has been included to plot the decay data solved by the three ODE solvers. As expected, the Runge-Kutta order 4 method has the least error: ![Decay figure](decay_figure.png). The error is also explicity plotted in the Jupyter notebook: ![Decay error figure](decay_error_figure.png).
+A Jupyter notebook has been included to plot the decay data solved by the three ODE solvers. As expected, the Runge-Kutta order 4 method has the least error: ![Decay figure](decay_figure.png)
+
+The error is also explicity plotted in the Jupyter notebook: ![Decay error figure](decay_error_figure.png)
