@@ -11,7 +11,9 @@ To build the ODE library, run `buildODElib.sh` in your shell. This generates `od
 
 ## Sample exponential decay application
 To run the sample radioactive decay application, run `decay.sh` in your shell. This creates an executable `decay.exe` and runs it. Each of the three ODE solvers solves the ODE
-$$ \dv{N}{t} = - \frac{N}{\tau} $$
+$$
+\frac{dN}{dt} = - \frac{N}{\tau}
+$$
 using various time steps, and data is recorded in `csv` format in the `decay_data` directory. 
 
 A Jupyter notebook has been included to plot the decay data solved by the three ODE solvers. As expected, the Runge-Kutta order 4 method has the least error: ![Decay figure](decay_figure.png)
