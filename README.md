@@ -16,7 +16,7 @@ $$
 \frac{dN}{dt} = - \frac{N}{\tau}
 $$
 
-using various time steps, and data is recorded in `csv` format in the `decay_data` directory. 
+using various time steps, and data is recorded in `csv` format in the `decay_data` directory. (The time steps used can be adjusted by modifying a list in `decay.sh`.)
 
 A Jupyter notebook has been included to plot the decay data solved by the three ODE solvers. As expected, the Runge-Kutta order 4 method has the least error: ![Decay figure](decay_figure.png)
 
